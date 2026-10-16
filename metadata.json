@@ -1,0 +1,6 @@
+{
+  "name": "FastICA From Scratch",
+  "description": "Python implementation of Independent Component Analysis (ICA) from scratch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
