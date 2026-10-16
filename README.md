@@ -12,11 +12,7 @@ This project demonstrates how to unmix overlapping audio signals and isolate ind
 - `requirements.txt`: Minimal dependencies (`numpy`, `scipy`, `matplotlib`, `streamlit`, `imageio-ffmpeg`).
 
 ## 3. How to Run
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-Open [http://localhost:8501](http://localhost:8501) in your browser. Any common audio format (`.wav`, `.mp3`, `.m4a`, `.flac`, `.ogg`, `.mp4`) can be dropped directly into the app because `imageio-ffmpeg` automatically converts uploaded files into standardized mono float WAV data.
+Website Link: https://unmixthesignal.streamlit.app/
 
 ## 4. How to Use the Website
 - **Mode A (Clean Sources):** Upload 2 to 4 separate tracks (e.g., speech, music, ambient). The app generates a well-conditioned mixing matrix $A$, blends them, runs FastICA, and evaluates recovery against ground truth.
